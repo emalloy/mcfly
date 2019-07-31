@@ -15,6 +15,8 @@ RUN apk add --no-cache ruby ruby-dev \
       wget \
       perl \
       bash \
+      socat \
+      rsync \
    \
    && mkdir -p /var/spool/mcrouter \
    && cd /opt/mcfly \
